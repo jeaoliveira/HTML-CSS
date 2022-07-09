@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    color: white;
+}
+h2{
+
+    text-align: center;
+    color: white;
+}
+body{
+    background-color: black;
+}
+img{
+    color: white;
+    text-align: center;
+    
+}
+p{
+    color: white;
+    
+}
+a{
+    text-align: center;
+
+}
+/*class é .
+  div é # */
+.btnVoltar{
+    text-align: center;
+}
+
+/*#umaImg{
+    
+}*/
+.ptext{
+    text-align: center;
+    padding: 10px;
+}
+.ptextt{
+    text-align: center;
+
+}
