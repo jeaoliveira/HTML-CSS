@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+thead tr th{
+    position: sticky;
+    top: -1px;
+    background-color:gray ;
+
+}
+body tr:nth-child(2){
+    background-color: gray;
+
+}
+table{
+    border-collapse: collapse;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    
+}
+td,th{
+    border: 1px solid black;
+    padding: 10px;
+}
+thead, tfoot{
+    background-color: gray;
+    
+}
+caption{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 20px;
+    color: red;
+    background-color: yellow;
+}
+
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    
+    <table>
+        <caption> essa tabela e top</caption>
+        <thead>
+            <tr>
+                <th>estado</th>
+                <th>população</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>são paulo</td>
+                <td>23.32324.3232</td>
+            </tr>
+                <td>minas gerais</td>
+                <td>32.23323.22</td>
+                <tr>
+                    <td>rio de janeiro</td>
+                    <td>32.2.3.23.32.</td>
+
+                </tr>
+                <tr>
+                    <td>espito santo</td>
+                    <td>32.32.3.2</td>
+                </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>total de habitantes</th>
+                <td>000000</td>
+
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
